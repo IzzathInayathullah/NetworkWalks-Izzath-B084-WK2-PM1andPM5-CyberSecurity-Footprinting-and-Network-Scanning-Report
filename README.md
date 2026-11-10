@@ -156,7 +156,7 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 ## 8. Evidences Collected
 
-*Screenshots collected as evidence during the activities (stored in the `screenshots/` folder):*
+*Screenshots collected as evidence during the activities (stored in the `screenshots/` folder):* <br>
 
 <p align="center">
   <img src="screenshots/1_whois.png" width="800">
