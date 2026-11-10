@@ -1,7 +1,12 @@
-# 🔍 Cybersecurity Footprinting and Network Scanning Phase
+# 🔍 Cybersecurity Footprinting and Network Scanning Report
 
 Conducting cybersecurity footprinting and network scanning in a controlled environment to identify target information, discover active hosts, and analyze network services.
 
+<div align="center">
+
+# PENETRATION TESTING REPORT
+
+## W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS
 
 | Pentester Name (Cybersecurity Professional) | Izzath Inayathullah                                   |
 |---------------------------------------------|-------------------------------------------------------|
@@ -12,6 +17,7 @@ Conducting cybersecurity footprinting and network scanning in a controlled envir
 | Permission secured from client?             | Yes                                                   |
 | Phases covered                              | Phase 1: Reconnaissance & Footprinting<br>Phase 2: Scanning & Network Discovery<br>Phase 3-5: In Progress |
 
+</div>
 
 # 1. Liability Disclaimer
 
