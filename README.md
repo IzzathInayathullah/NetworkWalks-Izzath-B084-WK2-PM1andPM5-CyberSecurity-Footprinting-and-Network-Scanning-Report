@@ -209,7 +209,7 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 <div align="center">
 
--end of report-
+-End of Report-
 
 </div>
 <br>
