@@ -158,21 +158,53 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 *Screenshots collected as evidence during the activities (stored in the `screenshots/` folder):*
 
-![whois output](screenshots/1_whois.png)
+<p align="center">
+  <img src="screenshots/1_whois.png" width="800">
+  <br>
+  <em>Figure 01: WHOIS Domain Information Lookup</em>
+</p>
 
-![whatweb output](screenshots/2_whatweb.png)
+<p align="center">
+  <img src="screenshots/2_whatweb.png" width="800">
+  <br>
+  <em>Figure 02: Website Technology Identification Using WhatWeb</em>
+</p>
 
-![nslookup output](screenshots/3_nslookup.png)
+<p align="center">
+  <img src="screenshots/3_nslookup.png" width="800">
+  <br>
+  <em>Figure 03: DNS Lookup and Domain Resolution Using Nslookup</em>
+</p>
 
-![curl output](screenshots/4_curl.png)
+<p align="center">
+  <img src="screenshots/4_curl.png" width="800">
+  <br>
+  <em>Figure 04: HTTP Response and Website Information Using cURL</em>
+</p>
 
-![wafw00f output](screenshots/5_wafw00f.png)
+<p align="center">
+  <img src="screenshots/5_wafw00f.png" width="800">
+  <br>
+  <em>Figure 05: Web Application Firewall Detection Using WAFW00F</em>
+</p>
 
-![dnsrecon output](screenshots/7_dnsrecon.png)
+<p align="center">
+  <img src="screenshots/7_dnsrecon.png" width="800">
+  <br>
+  <em>Figure 06: DNS Enumeration Using DNSRecon</em>
+</p>
 
-![Zenmap scan](screenshots/8_zenmap.png)
+<p align="center">
+  <img src="screenshots/8_zenmap.png" width="800">
+  <br>
+  <em>Figure 07: Network Host Discovery Using Zenmap</em>
+</p>
 
-![Zenmap topology](screenshots/9_zenmap2.png)
+<p align="center">
+  <img src="screenshots/9_zenmap2.png" width="800">
+  <br>
+  <em>Figure 08: Network Topology Visualization in Zenmap</em>
+</p>
 
 <p align="center">
 
