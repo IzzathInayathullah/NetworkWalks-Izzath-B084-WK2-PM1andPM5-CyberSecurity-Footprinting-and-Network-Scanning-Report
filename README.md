@@ -190,19 +190,19 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 </p><br>
 
 <p align="center">
-  <img src="screenshots/7_dnsrecon.png" width="800">
+  <img src="screenshots/6_dnsrecon.png" width="800">
   <br>
   <em>Figure 06: DNS Enumeration Using DNSRecon</em>
 </p><br>
 
 <p align="center">
-  <img src="screenshots/8_zenmap.png" width="800">
+  <img src="screenshots/7_zenmap.png" width="800">
   <br>
   <em>Figure 07: Network Host Discovery Using Zenmap</em>
 </p><br>
 
 <p align="center">
-  <img src="screenshots/9_zenmap2.png" width="800">
+  <img src="screenshots/8_zenmap2.png" width="800">
   <br>
   <em>Figure 08: Network Topology Visualization in Zenmap</em>
 </p><br>
