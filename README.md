@@ -19,17 +19,17 @@ Conducting cybersecurity footprinting and network scanning in a controlled envir
 
 </div>
 
-# 1. Liability Disclaimer
+## 1. Liability Disclaimer
 
 I have performed these activities only on the systems & devices where I had secured written permission or the devices/systems that I own myself. All these materials are for education and research purpose only. Do not use anything from here to break the law. The instructor, the authors and Networkwalks are not responsible for what you do with this knowledge. Every action you take is your own responsibility. Misuse can lead to criminal charges, heavy fines, loss of your job and a permanent record. In most countries unauthorised access is a crime even when nothing is damaged.
  
-# 2. Introduction
+## 2. Introduction
 
 This report covers footprinting the networkwalks.com domain using multiple Kali Linux tools (W2-PM1) and scanning my own local network with Zenmap (W2-PM5). One module covers the footprinting phase and the other covers the scanning phase, so together they show how an attacker moves from gathering public information to mapping live hosts on a network. It is the Week 2 part of my ongoing internship program at Networkwalks.
 All commands were run in Kali Linux (footprinting) and on a Windows PC with Zenmap installed (scanning). Every step below includes the exact command used, the result I observed, a screenshot as evidence, and a short note on why the finding matters from an attacker's point of view.
 
 
-# 3. Tools Used
+## 3. Tools Used
 
 The table below lists each tool used in this report and its purpose.
 
@@ -45,9 +45,9 @@ The table below lists each tool used in this report and its purpose.
 |Zenmap (Nmap GUI)     | Scan the local subnet to find live hosts, IPs and MAC addresses. |
 | Windows CMD          | Local IP and MAC address identification                          |
 
-# 4. Activities Performed
+## 4. Activities Performed
 
-## 4.1 Footprinting & Reconnaissance
+### 4.1 Footprinting & Reconnaissance
 
 I performed reconnaissance against the `networkwalks.com` domain using six Kali Linux tools: **WHOIS, WhatWeb, Nslookup, Curl, Wafw00f and DNSRecon**. Each tool was used to collect a different type of information about the target.
 
@@ -64,7 +64,7 @@ Next, I used **Wafw00f** to determine whether a Web Application Firewall was pro
 Finally, I used **DNSRecon** to enumerate DNS records. The results provided information relating to name servers, mail servers, SPF/TXT records, service records and DNS software information.
 
 
-## 4.2 Network Scanning with Zenmap
+### 4.2 Network Scanning with Zenmap
 
 For the second activity, I used Zenmap to perform network discovery on my local network. The practical required me to identify my local IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
 
@@ -83,7 +83,7 @@ After completing the scan, I opened the **Topology** section in Zenmap, enabled 
 **Note:** The actual subnet, number of hosts and addresses should be replaced with the results from my own network when submitting the report.
 
  
-# 5. Risk Analysis / Impact
+## 5. Risk Analysis / Impact
 
 Based on the information collected during the footprinting and network scanning activities, I identified the following potential risks.
 
@@ -104,7 +104,7 @@ The practical exercises primarily involved information gathering and host discov
 
 Therefore, the presence of information such as a software version, IP address or DNS record does not by itself mean that the system is vulnerable. Further authorized security testing would be required to confirm any actual vulnerability.
 
-# 6. Recommendations
+## 6. Recommendations
 
 Based on the observations from these activities, I recommend the following security improvements:
 
@@ -135,7 +135,7 @@ Based on the observations from these activities, I recommend the following secur
 9.  **Perform security testing with authorization**  
     Reconnaissance and scanning should only be performed against systems and networks where appropriate authorization has been provided.
 
-# 7. Conclusion
+## 7. Conclusion
 
 During Week 2 of my Cybersecurity & Ethical Hacking internship, I completed practical activities covering footprinting, reconnaissance and network scanning.
 
@@ -149,7 +149,7 @@ I also learned that technical findings should be documented clearly. A good cybe
 
 Finally, I learned that reconnaissance and scanning must always be performed within an authorized scope. These activities were completed as part of the assigned educational cybersecurity lab.
 
-# 8. Evidences Collected
+## 8. Evidences Collected
 
 *Screenshots collected as evidence during the activities (stored in the `screenshots/` folder):*
 
@@ -168,6 +168,12 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 ![Zenmap scan](screenshots/8_zenmap.png)
 
 ![Zenmap topology](screenshots/9_zenmap2.png)
+
+<p align="center">
+
+-end of report-
+
+</p>
 
 # 👤 Author
 
