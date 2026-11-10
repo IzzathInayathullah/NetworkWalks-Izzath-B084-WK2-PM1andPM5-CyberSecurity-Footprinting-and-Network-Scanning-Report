@@ -215,10 +215,10 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 
 # 👤 Author
 
-**Izzath Inayathullah**
+**Izzath Inayathullah**<br>
 Cybersecurity Enthusiast B084
 
-GitHub: [IzzathInayathullah](https://github.com/IzzathInayathullah)
+GitHub: [IzzathInayathullah](https://github.com/IzzathInayathullah) <br>
 LinkedIn: [IzzathInayathullah](https://www.linkedin.com/in/izzathinayathullah/)
 
 
