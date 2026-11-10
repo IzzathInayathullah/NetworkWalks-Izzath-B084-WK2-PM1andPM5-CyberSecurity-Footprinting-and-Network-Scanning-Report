@@ -6,7 +6,7 @@ Conducting cybersecurity footprinting and network scanning in a controlled envir
 
 # PENETRATION TESTING REPORT
 
-## W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS
+W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS
 
 | Pentester Name (Cybersecurity Professional) | Izzath Inayathullah                                   |
 |---------------------------------------------|-------------------------------------------------------|
