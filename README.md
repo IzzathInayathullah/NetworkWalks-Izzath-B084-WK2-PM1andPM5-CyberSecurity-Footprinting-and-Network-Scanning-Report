@@ -162,55 +162,55 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
   <img src="screenshots/1_whois.png" width="800">
   <br>
   <em>Figure 01: WHOIS Domain Information Lookup</em>
-</p>
+</p><br>
 
 <p align="center">
   <img src="screenshots/2_whatweb.png" width="800">
   <br>
   <em>Figure 02: Website Technology Identification Using WhatWeb</em>
-</p>
+</p><br>
 
 <p align="center">
   <img src="screenshots/3_nslookup.png" width="800">
   <br>
   <em>Figure 03: DNS Lookup and Domain Resolution Using Nslookup</em>
-</p>
+</p><br>
 
 <p align="center">
   <img src="screenshots/4_curl.png" width="800">
   <br>
   <em>Figure 04: HTTP Response and Website Information Using cURL</em>
-</p>
+</p><br>
 
 <p align="center">
   <img src="screenshots/5_wafw00f.png" width="800">
   <br>
   <em>Figure 05: Web Application Firewall Detection Using WAFW00F</em>
-</p>
+</p><br>
 
 <p align="center">
   <img src="screenshots/7_dnsrecon.png" width="800">
   <br>
   <em>Figure 06: DNS Enumeration Using DNSRecon</em>
-</p>
+</p><br>
 
 <p align="center">
   <img src="screenshots/8_zenmap.png" width="800">
   <br>
   <em>Figure 07: Network Host Discovery Using Zenmap</em>
-</p>
+</p><br>
 
 <p align="center">
   <img src="screenshots/9_zenmap2.png" width="800">
   <br>
   <em>Figure 08: Network Topology Visualization in Zenmap</em>
-</p>
+</p><br>
 
-<p align="center">
+<div align="center">
 
 -end of report-
 
-</p>
+</div>
 <br>
 
 # 👤 Author
