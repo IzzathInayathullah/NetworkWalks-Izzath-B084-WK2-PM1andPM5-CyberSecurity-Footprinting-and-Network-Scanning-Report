@@ -57,52 +57,47 @@ I performed reconnaissance against the `networkwalks.com` domain using six Kali 
 
 First, I used **WHOIS** to obtain publicly available domain registration information and identify the domain’s name servers. The results provided information about the domain registration and hosting infrastructure.
 
-I then used **WhatWeb** to identify technologies used by the website. The results identified **WordPress 7.1.4** and **WP Download Manager 3.3.76**, along with other information exposed by the website.
-
-Using **Nslookup**, I resolved the domain name to its IP address. The provided result identified **192.232.216.135**.
-
-I used **Curl** with the `-I` option to inspect the HTTP response headers. This provided additional information about the web application and exposed the WordPress REST API endpoint `/wp-json/`.
-
-Next, I used **Wafw00f** to determine whether a Web Application Firewall was protecting the website. The result identified **ModSecurity (SpiderLabs)**.
-
-Finally, I used **DNSRecon** to enumerate DNS records. The results provided information relating to name servers, mail servers, SPF/TXT records, service records and DNS software information.
-
-
-#### 4.2 Commands Used
-
-The following commands were used in Kali Linux to perform the footprinting and reconnaissance activities:
-
-**1. WHOIS – Domain Registration Information**
+**WHOIS – Domain Registration Information**
 
 ```bash
 whois networkwalks.com
 ```
 
-**2. WhatWeb – Website Technology Identification**
+I then used **WhatWeb** to identify technologies used by the website. The results identified **WordPress 7.1.4** and **WP Download Manager 3.3.76**, along with other information exposed by the website.
+
+**WhatWeb – Website Technology Identification**
 
 ```bash
 whatweb https://networkwalks.com
 ```
 
-**3. Nslookup – Domain Name Resolution**
+Using **Nslookup**, I resolved the domain name to its IP address. The provided result identified **192.232.216.135**.
+
+**Nslookup – Domain Name Resolution**
 
 ```bash
 nslookup networkwalks.com
 ```
 
-**4. cURL – HTTP Response Header Inspection**
+I used **Curl** with the `-I` option to inspect the HTTP response headers. This provided additional information about the web application and exposed the WordPress REST API endpoint `/wp-json/`.
+
+**cURL – HTTP Response Header Inspection**
 
 ```bash
 curl -I https://networkwalks.com
 ```
 
-**5. WAFW00F – Web Application Firewall Detection**
+Next, I used **Wafw00f** to determine whether a Web Application Firewall was protecting the website. The result identified **ModSecurity (SpiderLabs)**.
+
+**WAFW00F – Web Application Firewall Detection**
 
 ```bash
 wafw00f https://networkwalks.com
 ```
 
-**6. DNSRecon – DNS Record Enumeration**
+Finally, I used **DNSRecon** to enumerate DNS records. The results provided information relating to name servers, mail servers, SPF/TXT records, service records and DNS software information.
+
+**DNSRecon – DNS Record Enumeration**
 
 ```bash
 dnsrecon -d networkwalks.com
@@ -110,8 +105,7 @@ dnsrecon -d networkwalks.com
 
 These commands were used to collect publicly available information about the target domain, identify web technologies, inspect HTTP responses, detect WAF technology and examine DNS records.
 
-
-### 4.3 Network Scanning with Zenmap
+### 4.2 Network Scanning with Zenmap
 
 For the second activity, I used Zenmap to perform network discovery on the Virtual network. The practical required me to identify the Virtual PC IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
 
