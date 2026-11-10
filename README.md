@@ -68,12 +68,68 @@ Next, I used **Wafw00f** to determine whether a Web Application Firewall was pro
 Finally, I used **DNSRecon** to enumerate DNS records. The results provided information relating to name servers, mail servers, SPF/TXT records, service records and DNS software information.
 
 
-### 4.2 Network Scanning with Zenmap
+#### 4.2 Commands Used
+
+The following commands were used in Kali Linux to perform the footprinting and reconnaissance activities:
+
+**1. WHOIS – Domain Registration Information**
+
+```bash
+whois networkwalks.com
+```
+
+**2. WhatWeb – Website Technology Identification**
+
+```bash
+whatweb https://networkwalks.com
+```
+
+**3. Nslookup – Domain Name Resolution**
+
+```bash
+nslookup networkwalks.com
+```
+
+**4. cURL – HTTP Response Header Inspection**
+
+```bash
+curl -I https://networkwalks.com
+```
+
+**5. WAFW00F – Web Application Firewall Detection**
+
+```bash
+wafw00f https://networkwalks.com
+```
+
+**6. DNSRecon – DNS Record Enumeration**
+
+```bash
+dnsrecon -d networkwalks.com
+```
+
+These commands were used to collect publicly available information about the target domain, identify web technologies, inspect HTTP responses, detect WAF technology and examine DNS records.
+
+
+### 4.3 Network Scanning with Zenmap
 
 For the second activity, I used Zenmap to perform network discovery on the Virtual network. The practical required me to identify the Virtual PC IP address and subnet, discover live hosts, identify their IP and MAC addresses, and generate a network topology.
 
-I first used the Windows ipconfig command to identify the Windows Virtual IP address and LAN subnet. I then entered the subnet into Zenmap and selected Ping Scan to identify active hosts.
+I used the following commands during this activity:
 
+**1. Identify the Windows network configuration**
+
+```cmd
+ipconfig
+```
+
+**2. Zenmap – Network Host Discovery**
+
+The following Nmap command corresponds to the Ping Scan option in Zenmap:
+
+```bash
+nmap -sn 10.0.0.0/24
+```
 The example results provided in the practical identified three live hosts:
 
 - `10.0.0.1`
@@ -82,7 +138,11 @@ The example results provided in the practical identified three live hosts:
 
 The example results also included three MAC addresses.
 
-After completing the scan, I opened the **Topology** section in Zenmap, enabled the legend and saved the network topology in PNG format.
+The `-sn` option performs host discovery without conducting a port scan. The subnet `10.0.0.0/24` should be replaced with the actual subnet identified during the practical, if different.
+
+**3. Network Topology Visualization**
+
+After completing the host discovery scan, I used Zenmap's **Topology** tab to visualize the discovered network devices, enabled the legend and saved the resulting topology as a PNG image.
 
  
 ## 5. Risk Analysis / Impact
@@ -96,7 +156,7 @@ Based on the information collected during the footprinting and network scanning 
 | 3      | HTTP technical information exposed           | Curl returned HTTP response headers and exposed `/wp-json/` | May assist technology fingerprinting and further enumeration                                                    | **Low**      |
 | 4      | WAF technology identifiable                  | Wafw00f identified ModSecurity (SpiderLabs)                 | Reveals information about the web application’s security architecture                                           | **Low**      |
 | 5      | DNS infrastructure information exposed       | DNSRecon identified DNS, mail and service-related records   | DNS information can help build a broader infrastructure profile                                                 | **Medium**   |
-| 6      | Multiple live hosts visible on local network | Zenmap identified four live hosts in the example network    | Unknown or unauthorized devices may potentially be present on a network                                         | **Medium**   |
+| 6      | Multiple live hosts visible on local network | Zenmap identified three live hosts in the example network    | Unknown or unauthorized devices may potentially be present on a network                                         | **Medium**   |
 
 **Risk level key:** ● Critical ● Medium ● Low
 <br>
