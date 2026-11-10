@@ -18,7 +18,7 @@ Conducting cybersecurity footprinting/reconnaissance and network scanning in a c
 | Phases covered                              | Phase 1: Reconnaissance & Footprinting<br>Phase 2: Scanning & Network Discovery<br>Phase 3-5: In Progress |
 
 </div>
-
+<br>
 
 ## 1. Liability Disclaimer
 
@@ -47,7 +47,7 @@ The table below lists each tool used in this report and its purpose.
 |dnsrecon              | Enumerate all DNS records (NS, MX, SPF, TXT, SRV).               |
 |Zenmap (Nmap GUI)     | Scan the local subnet to find live hosts, IPs and MAC addresses. |
 | Windows CMD          | Local IP and MAC address identification                          |
-
+<br>
 
 ## 4. Activities Performed
 
@@ -99,7 +99,7 @@ Based on the information collected during the footprinting and network scanning 
 | 6      | Multiple live hosts visible on local network | Zenmap identified four live hosts in the example network    | Unknown or unauthorized devices may potentially be present on a network                                         | **Medium**   |
 
 **Risk level key:** ● Critical ● Medium ● Low
-
+<br>
 The risks above are observations from the footprinting and scanning exercises, not confirmed vulnerabilities.
 
 The practical exercises primarily involved information gathering and host discovery. No exploitation or vulnerability validation was performed as part of these two modules.
@@ -179,7 +179,7 @@ Finally, I learned that reconnaissance and scanning must always be performed wit
 -end of report-
 
 </p>
-
+<br>
 
 # 👤 Author
 
